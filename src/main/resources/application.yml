@@ -1,0 +1,10 @@
+spring:
+  security:
+    jwt:
+      key: test
+      expires: 1
+  datasource:
+    url: jdbc:mysql://localhost:3306/spb_starter
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
